@@ -1,0 +1,19 @@
+body {
+	background-color: lightgray;
+	width: 700px;
+	text-align: center;
+	margin: 30px auto;
+}
+h2 { 
+	margin: 30px auto;
+	color: darkgray;
+}
+.btn-primary{
+	margin: 10px, auto;
+}
+.label {
+	padding: 10px;
+	font-size: 120%;
+
+}
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset="utf-8">
+<meta name="description">
+<title>
+	Currency Exchange Rates
+</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<link href="united.min.css" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+	<div class="jumbotron">
+  		<h1>Currency Converter</h1>
+  		<h2>Convert US dollars to foreign currencies</h2>
+	<div class="btn-group">
+		<input type="number" id="dollars" value="dollars" class="form-control" placeholder="Enter amount in $US">
+		<button type="submit" id="convert" class="btn btn-default">Convert</button> 
+	</div>
+    </div>
+  </header>
+
+<div class="container-fixed">
+  <div class="row" id="results">
+    <div class="col-sm-6">
+		<button class="btn btn-primary" type="button">
+  		Australian Dollar (AUD) <span class="badge" id="AUD">0</span>
+  		<button class="btn btn-primary" type="button">
+  		Canadian Dollar (CAD) <span class="badge" id="CAD">0</span>
+	</div>
+	<div class="col-sm-6">
+  		<button class="btn btn-primary" type="button">
+  		Swiss Franc (CHF) <span class="badge" id="CHF">0</span>
+  		<button class="btn btn-primary" type="button">
+  		Chinese Yuan Renminbi (CNY) <span class="badge" id="CNY">0</span>
+  	</div>
+  	<div class="col-sm-6">
+  		<button class="btn btn-primary" type="button">
+  		Danish Krone (DKK) <span class="badge" id="DKK">0</span>
+  		<button class="btn btn-primary" type="button">
+  		European Union Euro (EUR) <span class="badge" id="EUR">0</span>
+  		</div>
+	<div class="col-sm-6">
+  		<button class="btn btn-primary" type="button">
+  		British Pound (GBP) <span class="badge" id="GBP">0</span>
+  		<button class="btn btn-primary" type="button">
+  		Hong Kong Dollar (HKD) <span class="badge" id="HKD">0</span>
+  	</div>
+	<div class="col-sm-6">
+  		<button class="btn btn-primary" type="button">
+  		Japanese Yen(JPY) <span class="badge" id="JPY">0</span>
+    	<button class="btn btn-primary" type="button">
+  		Indian Rupee (INR) <span class="badge" id="INR">0</span>
+  	</div>
+	<div class="col-sm-6">
+    	<button class="btn btn-primary" type="button">
+  		Swedish Krona (SEK) <span class="badge" id="SEK">0</span>
+    	<button class="btn btn-primary" type="button">
+  		Saudi Arabian Riyal (SAR) <span class="badge" id="SAR">0</span>
+  	</div>
+  	</div>
+  </div>
+</div>
+	
+
+<script src="jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src='scripts.js'> </script>
+</body>
+</html>
+
